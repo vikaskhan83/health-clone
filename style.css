@@ -1,0 +1,341 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#sec1{
+    width: 100%;
+    height: 5vh;
+    /* background-color: yellow; */
+    display: flex;
+}
+#div1{
+    /* background-color: red; */
+    /* display: flex; */
+    width: 30%;
+    height: 100%;
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    margin-left: 80px;
+    padding-top: .6rem;
+}
+
+#div1 a{
+    padding:10px;
+    margin-left: 25px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#div2{
+    margin-left: 30rem;
+    /* background-color: red; */
+    padding: 10px;
+    
+}
+#div2 span{
+    padding: 1rem;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sec2{
+    width: 100%;
+    height: 9vh;
+    /* background-color: red; */
+    display: flex;
+}
+
+#logo{
+    margin-left: 10rem;
+}
+
+#about{
+    margin-left: 5rem;
+    margin-top: .3rem;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#about button{
+    padding-left: 3rem;
+}
+
+#appointment{
+    margin-left: 5rem;
+    margin-top: .3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#appointment button{
+    text-decoration: none;
+}
+
+#images{
+    width: 100%;
+    height: 95vh;
+    /* background-color: red; */
+}
+
+#demo{
+    width: 100%;
+    height: 100%;
+}
+
+#carousell{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+.infor{
+    position: absolute;
+    top: 7rem;
+    left: 10rem;
+}
+.infor span{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+}
+
+.timing{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    top: 38.5rem;
+    width: 100%;
+    /* background-color: green; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.timing .sub-time{
+    width: 25%;
+    margin-right: 2rem;
+    /* padding: 1rem; */
+    color: white;
+    text-align: center;
+}
+.timing .sub-time a{
+    color: white;
+}
+
+#help{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua  ; */
+}
+#help h1{
+    margin-top: 2rem;
+    padding-top: 5rem;
+    text-align: center ;
+    margin-bottom: 2rem;
+}
+#help .help-img{
+    display: inline;
+    /* background-color: red; */
+    margin: 45rem;
+}
+#help p{
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 1.5rem;
+}
+
+#arbaz{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: yellow; */
+
+}
+#arbaz div{
+    width: 25%;
+    /* background-color: yellow; */
+    text-align: center;
+}
+#arbaz h3{
+    margin-top: 2rem;
+}
+
+#arbaz .heading{
+    margin-top: 1rem;
+}
+#arbaz .headingg{
+    margin-top: 1.1rem;
+}
+
+#rooms{
+    background-image: url(img/fun-bg.jpg);
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rooms div{
+    /* background-color: red; */
+    margin-left: 6rem;
+    text-align: center;
+    display: flex;
+}
+#rooms div span{
+    margin-left: 1rem;
+}
+
+#services{
+    width: 100vw;
+    height:100vh;
+    text-align: center;
+}
+#services h3{
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+#services img{
+    margin-bottom: 1rem;
+}
+
+#services .division{
+    display: flex;
+    margin-top: 4rem;
+    text-align: start;
+}
+#services .division div img{
+    width: 80%;
+    margin-left: 4rem;
+}
+#services .division div ol li{
+    margin-top: 10px;
+}
+
+#emergency{
+    width: 100vw;
+    height: 60vh;
+    /* background-color: red; */
+}
+#emergency div{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(2, 5, 8, .6); */
+    position: relative;
+}
+#emergency div img{
+    width: 100%;
+    height: 100%;
+}
+
+#emergency .emer-sub{
+    text-align: center;
+    position: absolute;
+    top: 180rem;
+}
+
+#clean{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+#clean div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+#level{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+#level .serve-sub{
+    display: flex;
+    margin-top: 3rem;
+    width: 100%;
+    height: 50%;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-color: yellow; */
+}
+
+#level .serve-sub div{
+    width: 30%;
+    /* height: 30%; */
+    /* background-color: red; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+#price{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#price .price-sub{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    margin-top: 4rem;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* background-color: yellow; */
+}
+
+#price .price-sub div{
+    width: 30%;
+    height: 80%;
+    background-color: #fff;
+}
+
+#news{
+    width: 100vw;
+    height: 110vh;
+    text-align: center;
+    /* margin-top: 5rem; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+#news .news-sub{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    /* margin-top: 4rem; */
+    /* background-color: red; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-left: 10rem; */
+}
+
+#news .news-sub div{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: pink; */
+}
+
+#carousel{
+    width: 100%;
+    height: 40%;
+    background-color: red;
+}
+
+
+
+
+
+
+
